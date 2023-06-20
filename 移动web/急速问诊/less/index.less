@@ -1,0 +1,107 @@
+//out:../css/
+@import "./base";
+/* html FontSize */
+@hFS: 37.5rem;
+
+/* 头部区域 */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 (15 / @hFS) 0;
+    height: (44/@hFS);
+    line-height: (44/@hFS);
+    text-align: center;
+
+    a {
+        width: (120/@hFS);
+        height: (44/@hFS);
+        text-align: left;
+
+        .iconfont {
+            font-size: (22 / @hFS);
+        }
+    }
+
+
+
+    h3 {
+        font-size: (17 / @hFS);
+    }
+
+    .note {
+        text-align: right;
+        font-size: (15 / @hFS);
+        color: #2CB5A5;
+    }
+}
+
+/* .banner */
+.banner {
+    margin-top: (30/@hFS);
+    margin-bottom: (34/@hFS);
+    text-align: center;
+
+    img {
+        margin: 0 auto;
+        width: (240/@hFS);
+        height: (206/@hFS);
+    }
+
+    p {
+        margin-top: (18/@hFS);
+        font-size: (16/@hFS);
+
+        span {
+            margin: 0 (5/@hFS);
+            color: #16C2A3;
+        }
+    }
+
+
+}
+
+/* 问诊按钮区域 */
+.inquiry {
+    padding: 0 (15/@hFS);
+
+    li {
+        height: (78/@hFS);
+        border: #EDEDED 1px solid;
+        border-radius: 4px;
+        margin-bottom: (15/@hFS);
+
+        a {
+            padding: (15/@hFS) (10/@hFS) (15/@hFS);
+            height: 100%;
+            display: flex;
+            align-items: center;
+
+            img {
+                margin-right: (14/@hFS);
+                width: (40/@hFS);
+                height: (40/@hFS);
+            }
+
+            .txt {
+                flex: 1;
+
+                h4 {
+                    // margin-bottom: (4/@hFS);
+                    font-size: (16/@hFS);
+                    line-height: (24/@hFS);
+                    color: #3C3E42;
+                }
+
+                p {
+                    font-size: (13/@hFS);
+                    color: #848484;
+                }
+            }
+
+            .iconfont {
+                font-size: (16/@hFS);
+            }
+
+        }
+    }
+}

@@ -1,0 +1,114 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+body,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, PingFangSC-Regular, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+img {
+  vertical-align: bottom;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/* html FontSize */
+/* 头部区域 */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.4rem 0;
+  height: 1.17333333rem;
+  line-height: 1.17333333rem;
+  text-align: center;
+}
+header a {
+  width: 3.2rem;
+  height: 1.17333333rem;
+  text-align: left;
+}
+header a .iconfont {
+  font-size: 0.58666667rem;
+}
+header h3 {
+  font-size: 0.45333333rem;
+}
+header .note {
+  text-align: right;
+  font-size: 0.4rem;
+  color: #2CB5A5;
+}
+/* .banner */
+.banner {
+  margin-top: 0.8rem;
+  margin-bottom: 0.90666667rem;
+  text-align: center;
+}
+.banner img {
+  margin: 0 auto;
+  width: 6.4rem;
+  height: 5.49333333rem;
+}
+.banner p {
+  margin-top: 0.48rem;
+  font-size: 0.42666667rem;
+}
+.banner p span {
+  margin: 0 0.13333333rem;
+  color: #16C2A3;
+}
+/* 问诊按钮区域 */
+.inquiry {
+  padding: 0 0.4rem;
+}
+.inquiry li {
+  height: 2.08rem;
+  border: #EDEDED 1px solid;
+  border-radius: 4px;
+  margin-bottom: 0.4rem;
+}
+.inquiry li a {
+  padding: 0.4rem 0.26666667rem 0.4rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.inquiry li a img {
+  margin-right: 0.37333333rem;
+  width: 1.06666667rem;
+  height: 1.06666667rem;
+}
+.inquiry li a .txt {
+  flex: 1;
+}
+.inquiry li a .txt h4 {
+  font-size: 0.42666667rem;
+  line-height: 0.64rem;
+  color: #3C3E42;
+}
+.inquiry li a .txt p {
+  font-size: 0.34666667rem;
+  color: #848484;
+}
+.inquiry li a .iconfont {
+  font-size: 0.42666667rem;
+}

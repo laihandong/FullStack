@@ -1,0 +1,44 @@
+//out:../css/
+.bg-body-tertiary {
+    background-color: transparent !important;
+
+    .navbar-collapse {
+        flex-grow: 0;
+
+    }
+}
+
+.carousel {
+    .carousel-item {
+        @media (max-width:576px) {
+            height: 150px;
+        }
+        @media (min-width:576px) {
+            height: 250px;
+        }
+
+        @media (min-width:992px) {
+            height: 400px;
+        }
+
+        @media (min-width:1200px) {
+            height: 500px;
+        }
+
+        background-image: url(../assets/uploads/banner_1.jpg);
+        background-size: cover;
+        background-position: center 0;
+
+        &:nth-child(2) {
+            background-image: url(../assets/uploads/banner_2.jpg);
+        }
+
+        &:nth-child(3) {
+            background-image: url(../assets/uploads/banner_3.jpg);
+        }
+
+        &:nth-child(4) {
+            background-image: url(../assets/uploads/banner_4.jpg);
+        }
+    }
+}
